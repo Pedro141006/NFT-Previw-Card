@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+:root {
+
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --dark-blue-main: hsl(217, 54%, 11%);
+  --dark-blue-card: hsl(216, 50%, 16%);
+  --dark-blue-line: hsl(215, 32%, 27%);
+  --font-family: 'Outfit', sans-serif;
+  --font-size-paragraph: 18px;
+
+
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--dark-blue-main);
+  font-family: var(--font-family);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--dark-blue-card);
+  padding: 1.21em;
+  box-shadow: 0px 17px 28px 19px rgba(0,0,0,0.75);
+  border-radius: 18px;
+  width: 300px;
+}
+
+.cube{
+  width: 270px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+}
+
+.title {
+  color: white;
+  margin-bottom: 18px;
+  text-align: left;
+  width: 100%;
+}
+
+.line {
+  color: var(--dark-blue-line);
+}
+
+.line .main{
+ font-size: var(--font-size-paragraph);
+ 
+}
+
+.main {
+  margin-bottom: 18px;
+  
+}
+
+.bottom{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 18px;
+
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+}
+
+.ET {
+  color: var(--cyan);
+}
+
+.ET, .day{
+  margin-left: 0.26rem;
+}
+
+hr{
+  width: 100%;
+  margin-bottom: 18px;
+  border: none;
+  height: 1px;
+  background: var(--dark-blue-line);
+}
+
+.creation{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+}
+
+.avatar{
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 18px;
+}
+
+span{
+  color: white;
+}
+
+.av {
+  margin-left: 18px;
+}
